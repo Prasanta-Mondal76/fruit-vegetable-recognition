@@ -15,9 +15,12 @@ This AI-powered Streamlit web app identifies fruits or vegetables from an upload
 3. Run:
    ```
    pip install -r requirements.txt
+   ```
+   After completing the installation, run 
+   ```
    streamlit run Fruits_Vegetable_Classification.py
    ```
-4. Use the browser link shown in terminal (http://localhost:8501)
+5. Use the browser link shown in terminal (http://localhost:8501)
 
 ## Requirements
 Install dependencies:
