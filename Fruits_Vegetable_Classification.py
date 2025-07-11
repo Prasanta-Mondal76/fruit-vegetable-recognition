@@ -18,8 +18,8 @@ vegetables = ['Beetroot','Cabbage','Capsicum','Carrot','Cauliflower','Corn','Cuc
 
 
 def fetch_calories(prediction):
-    app_id = "670a87ff"
-    api_key = "6a910d2d6ccc6448b43ff57e6273239f"
+    app_id = "Your_api_id"
+    api_key = "Your_api_key"
     
     url = "https://trackapi.nutritionix.com/v2/natural/nutrients"
     headers = {
