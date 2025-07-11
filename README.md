@@ -28,6 +28,14 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+Create a api key in Nutritionix API
+
+Replace the code of Fruits_Vagetable_Classification.py with your app_id and api_key 
+```
+app_id = "Your_app_id"
+api_key = "your_api_key"
+```
+
 ## Files Included
 - `Fruits_Vegetable_Classification.py` – Main Streamlit app
 - `FV.h5` – Trained fruit & vegetable classification model
