@@ -20,25 +20,25 @@ This AI-powered Streamlit web app identifies fruits or vegetables from an upload
    ```
    streamlit run Fruits_Vegetable_Classification.py
    ```
-5. Use the browser link shown in terminal (http://localhost:8501)
+5. Use the browser link shown in the terminal (http://localhost:8501)
 
 ## Requirements
-Install dependencies:
+1. Install dependencies:
 ```
 pip install -r requirements.txt
 ```
 
-Create a api key in Nutritionix API
+2. Create an API key in the Nutritionix API (required for calorie estimation).
 
-Replace the code of Fruits_Vagetable_Classification.py with your app_id and api_key 
-```
-app_id = "Your_app_id"
+3. Replace the code in `Fruits_Vegetable_Classification.py` under the function `fetch_calories(prediction)` with your `app_id` and `api_key`:
+```python
+app_id = "your_app_id"
 api_key = "your_api_key"
 ```
 
 ## Files Included
 - `Fruits_Vegetable_Classification.py` – Main Streamlit app
-- `FV.h5` – Trained fruit & vegetable classification model
+- `FV.h5` – Trained fruit & Vegetable classification model
 - `mobilenet_v2_weights...h5` – MobileNetV2 base model weights
 - `requirements.txt` – Required packages
 
