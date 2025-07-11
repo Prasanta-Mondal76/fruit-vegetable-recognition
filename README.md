@@ -1,13 +1,26 @@
 # Fruit & Vegetable Recognition and Calorie Estimator 🍎🥦
 
 ## Overview
-This AI-powered Streamlit web app identifies fruits or vegetables from an uploaded image and fetches their calorie information using the Nutritionix API.
+This AI-powered Streamlit web app identifies fruits or vegetables from an uploaded image and fetches their calorie information using the **Nutritionix API**. It uses a **fine-tuned MobileNetV2 deep learning model** trained on 36 food classes.
+
 
 ## How it Works
 - Upload an image (JPG/PNG) of a fruit or vegetable.
 - The app uses a MobileNetV2 model to identify the item.
 - Then, it fetches the estimated calories using Nutritionix API.
 - Results are shown instantly on a web interface.
+
+## 🧠 Dataset Description
+
+The dataset includes images of **36 different fruits and vegetables**, organized by class folders.
+
+### 🍎 Fruits:
+Banana, Apple, Pear, Grapes, Orange, Kiwi, Watermelon, Pomegranate, Pineapple, Mango
+
+### 🥦 Vegetables:
+Cucumber, Carrot, Capsicum, Onion, Potato, Lemon, Tomato, Radish, Beetroot, Cabbage, Lettuce, Spinach, Soybean, Cauliflower, Bell Pepper, Chilli Pepper, Turnip, Corn, Sweetcorn, Sweet Potato, Paprika, Jalapeño, Ginger, Garlic, Peas, Eggplant
+
+All images are resized to `224x224` during training.
 
 ## How to Run
 1. Install Python 3.10 .
