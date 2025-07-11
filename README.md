@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 2. Create an API key in the Nutritionix API (required for calorie estimation).
 
-3. Replace the code in `Fruits_Vegetable_Classification.py` under the function `fetch_calories(prediction)` with your's `app_id` and `api_key`:
+3. Replace the code in `Fruits_Vegetable_Classification.py` under the function `fetch_calories(prediction)` with your `app_id` and `api_key`:
 ```python
 app_id = "your_app_id"
 api_key = "your_api_key"
