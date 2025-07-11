@@ -57,4 +57,9 @@ api_key = "your_api_key"
 
 
 ## Credits
-Developed by Prasanta Mondal — as a practical demonstration of AI in food classification and calorie estimation.
+This project was developed as a practical demonstration of how AI and ML can be used in food recognition and calorie estimation.
+Thanks to:
+
+`TensorFlow & Keras`
+`Streamlit`
+`Nutritionix API`
