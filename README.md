@@ -36,7 +36,7 @@ All images are resized to `224x224` during training.
 5. Use the browser link shown in the terminal (http://localhost:8501)
 
 ## Output
-![Alt text](https://github.com/Prasanta-Mondal76/fruit-vegetable-recognition/blob/main/Screenshot%202025-07-11%20220938.png)
+![Alt text](https://github.com/Prasanta-Mondal76/fruit-vegetable-recognition/blob/main/Screenshot.png)
 
 ## Requirements
 1. Install dependencies:
