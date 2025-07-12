@@ -2,5 +2,6 @@ requests
 beautifulsoup4 
 streamlit 
 numpy 
-Pillow keras
+Pillow 
+keras
 tensorflow==2.18.0
