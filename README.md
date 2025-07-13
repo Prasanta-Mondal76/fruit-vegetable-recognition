@@ -66,5 +66,8 @@ Thanks to:
 * `Streamlit`
 * `Nutritionix API`
 
+## Web App Link
+`https://fruit-vegetable-recognition-nq79quf8t29ebwtglkbqmg.streamlit.app/`
+
 
 ### Note: This model is trained on 36 fruit and vegetable classes, with 100 images per class. Due to the limited dataset size, the model might sometimes misclassify or return "Unknown" even if the uploaded image belongs to one of the trained classes. This is expected behavior and can be improved by training the model on a larger and more diverse dataset.
