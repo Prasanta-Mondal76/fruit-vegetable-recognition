@@ -51,7 +51,7 @@ def processed_img(img_path):
 
     print("Confidence:", confidence)
 
-    if confidence < 0.7:  
+    if confidence < 0.6:  
         return "Unknown", "Unknown"
     
     label = labels[y_class]
