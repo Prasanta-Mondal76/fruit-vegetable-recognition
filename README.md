@@ -7,7 +7,7 @@ This AI-powered Streamlit web app identifies fruits or vegetables from an upload
 ## How it Works
 - Upload an image (JPG/PNG) of a fruit or vegetable.
 - The app uses a MobileNetV2 model to identify the item.
-- Then, it fetches the estimated calories using Nutritionix API.
+- It then fetches the estimated calorie information using the Nutritionix API.
 - Results are shown instantly on a web interface.
 
 ## 🧠 Dataset Description
@@ -62,6 +62,6 @@ api_key = "your_api_key"
 This project was developed as a practical demonstration of how AI and ML can be used in food recognition and calorie estimation.
 Thanks to:
 
-`TensorFlow & Keras`
-`Streamlit`
-`Nutritionix API`
+* `TensorFlow & Keras`
+* `Streamlit`
+* `Nutritionix API`
