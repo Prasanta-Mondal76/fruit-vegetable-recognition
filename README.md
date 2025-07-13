@@ -22,21 +22,11 @@ Cucumber, Carrot, Capsicum, Onion, Potato, Lemon, Tomato, Radish, Beetroot, Cabb
 
 All images are resized to `224x224` during training.
 
-## How to Run
-1. Install Python 3.10 .
-2. Open terminal in the project folder.
-3. Run:
-   ```
-   pip install -r requirements.txt
-   ```
-   After completing the installation, run 
-   ```
-   streamlit run Fruits_Vegetable_Classification.py
-   ```
-5. Use the browser link shown in the terminal (http://localhost:8501)
-
-## Output
-![Alt text](https://github.com/Prasanta-Mondal76/fruit-vegetable-recognition/blob/main/Screenshot.png)
+## Files Included
+- `Fruits_Vegetable_Classification.py` – Main Streamlit app
+- `FV.h5` – Trained fruit & Vegetable classification model
+- `mobilenet_v2_weights...h5` – MobileNetV2 base model weights
+- `requirements.txt` – Required packages
 
 ## Requirements
 1. Install dependencies:
@@ -52,12 +42,21 @@ app_id = "your_app_id"
 api_key = "your_api_key"
 ```
 
-## Files Included
-- `Fruits_Vegetable_Classification.py` – Main Streamlit app
-- `FV.h5` – Trained fruit & Vegetable classification model
-- `mobilenet_v2_weights...h5` – MobileNetV2 base model weights
-- `requirements.txt` – Required packages
+## How to Run
+1. Install Python 3.10.0 (Version must support TensorFlow)
+2. Open terminal in the project folder.
+3. Run:
+   ```
+   pip install -r requirements.txt
+   ```
+   After completing the installation, run 
+   ```
+   streamlit run Fruits_Vegetable_Classification.py
+   ```
+5. Use the browser link shown in the terminal (http://localhost:8501)
 
+## Output
+![Alt text](https://github.com/Prasanta-Mondal76/fruit-vegetable-recognition/blob/main/Screenshot.png)
 
 ## Credits
 This project was developed as a practical demonstration of how AI and ML can be used in food recognition and calorie estimation.
