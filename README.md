@@ -65,3 +65,5 @@ Thanks to:
 * `TensorFlow & Keras`
 * `Streamlit`
 * `Nutritionix API`
+
+# Note: This app is trained on only 100 images across 36 food categories. As a result, sometimes it may misclassify an image or show "Unknown" even if the uploaded item actually belongs to one of the 36 known classes.
