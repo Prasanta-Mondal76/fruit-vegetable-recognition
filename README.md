@@ -66,4 +66,8 @@ Thanks to:
 * `Streamlit`
 * `Nutritionix API`
 
-# Note: This app is trained on only 100 images across 36 food categories. As a result, sometimes it may misclassify an image or show "Unknown" even if the uploaded item actually belongs to one of the 36 known classes.
+### Note: This model is trained on 36 fruit and vegetable classes, with 100 images per class. Due to the limited dataset size, the model might sometimes misclassify or return "Unknown" even if the uploaded image belongs to one of the trained classes. This is expected behavior and can be improved by training the model on a larger and more diverse dataset.
+
+## Note: This model is trained on 36 fruit and vegetable classes, with 100 images per class. Due to the limited dataset size, the model might sometimes misclassify or return "Unknown" even if the uploaded image belongs to one of the trained classes. This is expected behavior and can be improved by training the model on a larger and more diverse dataset.
+
+# Note: This model is trained on 36 fruit and vegetable classes, with 100 images per class. Due to the limited dataset size, the model might sometimes misclassify or return "Unknown" even if the uploaded image belongs to one of the trained classes. This is expected behavior and can be improved by training the model on a larger and more diverse dataset.
